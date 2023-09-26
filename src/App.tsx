@@ -1,9 +1,13 @@
-import Wordle from "./pages/Wordle/Wordle";
+// import Wordle from "./pages/Wordle";
+// import TipCalculator from './pages/TipCalculator';
+import QuestionList from './pages/QuestionList';
 
 const App = () => {
   return (
     <div>
-      <Wordle />
+      {/* <Wordle /> */}
+      {/* <TipCalculator /> */}
+      <QuestionList />
     </div>
   );
 };
